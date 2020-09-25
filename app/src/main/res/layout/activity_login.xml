@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/logo_1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:src="@drawable/logo_2" />
+
+    <EditText
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/estilos1"
+        android:drawableLeft="@drawable/ic_action_name1"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#00BCD4"
+        android:textColor="#F6F4F4"
+        android:textColorHint="#F8F5F5"
+
+        android:visibility="visible" />
+
+    <EditText
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/estilos1"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#FAF4F4"
+        android:textColorHint="#FDF9F9" />
+
+    <Button
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Forgot Password"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FDFBFB" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Terms &amp; conditions"
+        android:textColor="#F6F4F4"
+        android:textColorHint="#FBF8F8" />
+
+    *
+</LinearLayout>
